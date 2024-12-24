@@ -1,0 +1,15 @@
+#score-board {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.animated-message {
+    font-size: 18px;
+    animation: fadeIn 1s ease-in-out, blink 0.5s step-end infinite alternate;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
